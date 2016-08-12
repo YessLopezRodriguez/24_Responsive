@@ -1,0 +1,19 @@
+body{
+	background-color: pink;
+}
+.text-center{
+	text-align: center;
+}
+@media (max-width: 700px) {
+	[class*="cambioColor"] {
+		width: 100%;
+		background-color: green;
+	}
+}
+@media (max-width: 600px) {
+	[class*="cambioColor"] {
+		width: 100%;
+		background-color: blue;
+	}
+}
+
